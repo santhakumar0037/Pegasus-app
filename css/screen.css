@@ -35,7 +35,6 @@ div#profile-image img {
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-
 /* Fixed top navigation */
 
 body > .container {
@@ -51,11 +50,14 @@ body > .container {
     line-height: 3;
     text-transform: uppercase;
 }
+
 .tab-navigation .nav-link.active {
     color: inherit;
     background-color: inherit;
     font-weight: 700;
 }
+
+
 
 /* Featurettes
 ------------------------- */
@@ -85,11 +87,6 @@ body > .container {
     margin-bottom: 0;
 }
 
-@media (min-width: 576px) {
-    .bd-footer {
-        text-align: left;
-    }
-}
 
 .bd-footer-links {
     padding-left: 0;
