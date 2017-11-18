@@ -35,6 +35,55 @@ div#profile-image img {
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
+.profile-thumbnail {
+    /*margin: .5rem;*/
+    /*background-color: #fff;
+    padding: 4px;
+    border: 2px solid #ccc;
+    border-radius: 50%;*/
+}
+.profile-thumbnail img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    /*box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
+}
+
+.appointment-card {
+    border-left-width: 4px;
+    border-left-style: solid;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    /*padding: .5rem;*/
+    margin: .5rem 0;
+}
+.appointment-card-blue {
+  border-color: #2aabd2;
+}
+.appointment-card-red {
+    border-color: #b22222;
+}
+.appointment-card-green {
+    border-color: green;
+}
+.appointment-date {
+    font-weight: 600;
+    padding: .75rem .5rem;
+    width: 30%;
+}
+.appointment-name {
+    padding: .75rem .5rem .75rem 1rem;
+    font-weight: 300;
+}
+
+.material-h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
 /* Fixed top navigation */
 
 body > .container {
