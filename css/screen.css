@@ -13,22 +13,22 @@ h2.title {
     color: #2aabd2;
     font-size: 170%;
 }
+h5.title{
+    color: #2aabd2;
+    font-size: 120%;
+}
 
-div.jumbotron,
-div#profile-background {
-    margin-top: 54px;
+div#main-container{
+    padding-top: 2rem;
 }
-div#profile-image {
-    width: 212px;
-    height: 212px;
-    /*background-color: #fff;
-    padding: 4px;
-    border: 2px solid #ccc;
-    border-radius: 50%;*/
-    z-index: 2;
-    margin: -100px auto 0;
+
+
+div#personal{
+    align-content: center;
 }
+
 div#profile-image img {
+    margin-top: 2rem;
     height: 200px;
     width: 200px;
     border-radius: 50%;
