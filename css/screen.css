@@ -6,7 +6,7 @@ nav.pegasus-background {
     background-color: #2ABECD;
 }
 
-i {
+.services i {
 	color: #2ABECD;
 }
 
@@ -181,3 +181,6 @@ table.no-margin-bottom {
 .bd-footer-links li + li {
     margin-left: 1rem;
 }
+
+
+
