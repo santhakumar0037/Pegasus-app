@@ -26,8 +26,12 @@ h5.title{
     font-size: 120%;
 }
 
+
+
+
 div#main-container{
-    padding-top: 2rem;
+    line-height: 2rem;
+    padding-top: 4rem;
 }
 
 
@@ -94,9 +98,7 @@ div#profile-image img {
     margin: 1rem 0;
 }
 
-.text-center {
-	padding-top:2rem;
-}
+
 
 /* Fixed top navigation */
 
@@ -125,6 +127,15 @@ body > .container {
     background-color: inherit;
     font-weight: 700;
 }
+
+table.no-row-border th, table.no-row-border td {
+    border-top: none;
+
+}
+table.no-margin-bottom {
+    margin-bottom: 0rem;
+}
+
 
 
 
