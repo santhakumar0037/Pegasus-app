@@ -58,9 +58,39 @@ div#profile-image img {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    border: 2px solid lightblue;
+    border: 2px solid #2ABECD;
     padding: 4px;
     /*box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
+}
+.circular-padded-image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 4px;
+    /*box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
+}
+.profile-thumbnail-select {
+    position: relative;
+}
+.profile-thumbnail-select img.unselected {
+    opacity: .25;
+}
+.profile-thumbnail-select img.selected {
+    border-color: green;
+}
+.profile-thumbnail-select,
+.horse-selector-name {
+    padding: 0 .5rem;
+}
+.lh-4rem {
+    line-height: 4rem;
+}
+.green-circle-tick {
+    z-index: 99;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
 }
 
 .appointment-card {
