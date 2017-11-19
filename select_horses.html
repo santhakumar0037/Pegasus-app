@@ -9,12 +9,12 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <script src="https://use.fontawesome.com/a00354889e.js"></script>
         <link rel="stylesheet" href="css/screen.css" />
-        <title>Dashboard</title>
+        <title>Select horses</title>
     </head>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark pegasus-background">
-    <a class="navbar-brand" href="#">Pegasus</a>
+    <a class="navbar-brand" href="#">Select horses</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,75 +30,72 @@
     </div>
 </nav>
     <main>
-        <div class="container-fluid">
-            <div class="row pt-4 pb-4">
+        <div class="container-fluid pt-4">
+            <div class="row">
                 <div class="col">
-                    <div class="d-flex" style="justify-content: space-evenly /*space-between*/">
-                        <!--<div class="align-self-center">
-                            <i class="fa fa-3x fa-angle-left" aria-hidden="true"></i>
+                    <div class="d-flex">
+                        <!--<div class="lh-4rem">
+                            <img src="images/checkbox-blank-outline-32.png" />
                         </div>-->
-                        <div class="profile-thumbnail">
-                            <img src="images/john.jpg" />
-                            <p class="text-center">John</p>
+                        <div class="profile-thumbnail-select">
+                            <img class="circular-padded-image unselected" src="images/john.jpg" />
                         </div>
-                        <div class="profile-thumbnail">
-                            <img src="images/paul.jpg" />
-                            <p class="text-center">Paul</p>
+                        <div class="horse-selector-name">
+                            <h4 class="lh-4rem">John</h4>
                         </div>
-                        <div class="profile-thumbnail">
-                            <img src="images/george.jpg" />
-                            <p class="text-center">George</p>
-                        </div>
-                        <!--<div class="align-self-center">
-                            <i class="fa fa-3x fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex">
+                        <!--<div class="lh-4rem">
+                            <img src="images/checkbox-marked-32.png" />
                         </div>-->
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="material-h2">APPOINTMENTS</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="appointment-card appointment-card-blue">
-                        <div class="appointment-date">
-                            <strong>22 NOV</strong>&nbsp;&nbsp;09:00
+                        <div class="profile-thumbnail-select">
+                            <img class="circular-padded-image selected" src="images/paul.jpg" />
+                            <img class="green-circle-tick" src="images/checkbox-marked-circle-24.png" />
                         </div>
-                        <div class="appointment-name">
-                            Vet's appointment
+                        <div class="horse-selector-name">
+                            <h4 class="lh-4rem">Paul</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="appointment-card appointment-card-green">
-                        <div class="appointment-date">
-                            <strong>25 NOV</strong>&nbsp;&nbsp;11:30
+                    <div class="d-flex">
+                        <!--<div class="lh-4rem">
+                            <img src="images/checkbox-blank-outline-32.png" />
+                        </div>-->
+                        <div class="profile-thumbnail-select">
+                            <img class="circular-padded-image unselected" src="images/george.jpg" />
                         </div>
-                        <div class="appointment-name">
-                            Farrier's visit
+                        <div class="horse-selector-name">
+                            <h4 class="lh-4rem">George</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="appointment-card appointment-card-green">
-                        <div class="appointment-date">
-                            <strong>27 DEC</strong>&nbsp;&nbsp;11:45
+                    <div class="d-flex">
+                        <!--<div class="lh-4rem">
+                            <img src="images/checkbox-marked-32.png" />
+                        </div>-->
+                        <div class="profile-thumbnail-select">
+                            <img class="circular-padded-image selected" src="images/ringo.jpg" />
+                            <img class="green-circle-tick" src="images/checkbox-marked-circle-24.png" />
                         </div>
-                        <div class="appointment-name">
-                            Farrier's visit
+                        <div class="horse-selector-name">
+                            <h4 class="lh-4rem">Ringo</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col">
-                    <button type="button" class="btn btn-lg btn-primary btn-block">BOOK APPOINTMENT</button>
+                    <button type="button" class="btn btn-lg btn-primary btn-block">NEXT</button>
                 </div>
             </div>
         </div>
