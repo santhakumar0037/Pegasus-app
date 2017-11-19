@@ -98,9 +98,7 @@ div#profile-image img {
     margin: 1rem 0;
 }
 
-.text-center {
-	padding-top:2rem;
-}
+
 
 /* Fixed top navigation */
 
@@ -137,6 +135,7 @@ table.no-row-border th, table.no-row-border td {
 table.no-margin-bottom {
     margin-bottom: 0rem;
 }
+
 
 
 
