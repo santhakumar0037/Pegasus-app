@@ -84,10 +84,22 @@ div#profile-image img {
     margin: 1rem 0;
 }
 
+.text-center {
+	padding-top:2rem;
+}
+
 /* Fixed top navigation */
 
 body > .container {
     padding: 54px 15px 0;
+}
+
+.services .row {
+	padding-top:3rem;
+}
+
+i {
+	color: black;
 }
 
 .tab-navigation {
