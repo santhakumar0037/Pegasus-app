@@ -3,8 +3,13 @@ html * {
 }
 
 nav.pegasus-background {
-    background-color: #2aabd2;
+    background-color: #2ABECD;
 }
+
+i {
+	color: #2ABECD;
+}
+
 nav.navbar {
     border-radius: 0;
 }
@@ -103,9 +108,7 @@ body > .container {
 	padding-top:3rem;
 }
 
-i {
-	color: #2aabd2;
-}
+
 
 .tab-navigation {
     width: 100%;
