@@ -79,6 +79,10 @@ div#profile-image img {
 .appointment-card-green {
     border-color: green;
 }
+
+.appointment-card p{
+	
+}
 .appointment-date {
     font-weight: 600;
     /*padding: .75rem .5rem;
@@ -99,7 +103,6 @@ div#profile-image img {
 }
 
 
-
 /* Fixed top navigation */
 
 body > .container {
@@ -109,8 +112,6 @@ body > .container {
 .services .row {
 	padding-top:3rem;
 }
-
-
 
 .tab-navigation {
     width: 100%;
@@ -181,5 +182,93 @@ table.no-margin-bottom {
     margin-left: 1rem;
 }
 
+/* Calendar Styling
+------------------------- */
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
 
+.month {
+    padding: 0.75rem;
+    width: 100%;
+    background: #2ABECD;
+    text-align: center;
+	margin-top:1rem;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    text-transform: uppercase;
+}
+
+.month .prev {
+    float: left;
+}
+
+.month .next {
+    float: right;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+	padding-bottom:0;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+	padding-bottom:0;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+
+.days li .active {
+	border-radius: 5px;
+    background: #2ABECD;
+    color: white !important
+}
+
+.days li .filing {
+    border-bottom-style: solid;
+	border-bottom-color: cornflowerblue;
+}
+
+.days li .shoes {
+    border-bottom-style: solid;
+	border-bottom-color: green;
+}
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
 
