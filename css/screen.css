@@ -2,6 +2,9 @@ html * {
     font-family: "Open Sans";
 }
 
+nav.pegasus-background {
+    background-color: #2aabd2;
+}
 nav.navbar {
     border-radius: 0;
 }
@@ -47,9 +50,11 @@ div#profile-image img {
     border-radius: 50%;*/
 }
 .profile-thumbnail img {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
+    border: 2px solid lightblue;
+    padding: 4px;
     /*box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -57,7 +62,7 @@ div#profile-image img {
     border-left-width: 4px;
     border-left-style: solid;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    /*padding: .5rem;*/
+    padding: .5rem;
     margin: .5rem 0;
 }
 .appointment-card-blue {
@@ -71,11 +76,11 @@ div#profile-image img {
 }
 .appointment-date {
     font-weight: 600;
-    padding: .75rem .5rem;
-    width: 30%;
+    /*padding: .75rem .5rem;
+    width: 30%;*/
 }
 .appointment-name {
-    padding: .75rem .5rem .75rem 1rem;
+    /*padding: .75rem .5rem .75rem 1rem;*/
     font-weight: 300;
 }
 
@@ -88,10 +93,22 @@ div#profile-image img {
     margin: 1rem 0;
 }
 
+.text-center {
+	padding-top:2rem;
+}
+
 /* Fixed top navigation */
 
 body > .container {
     padding: 54px 15px 0;
+}
+
+.services .row {
+	padding-top:3rem;
+}
+
+i {
+	color: #2aabd2;
 }
 
 .tab-navigation {
