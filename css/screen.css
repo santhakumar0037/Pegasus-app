@@ -184,3 +184,14 @@ table.no-margin-bottom {
     background-color: #2abecd;
     border: none;
 }
+.btn-success {
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: hotpink;
+    border: none;
+}
+.unavailable{
+    background-color: #ddd;
+}
