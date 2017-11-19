@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <script src="https://use.fontawesome.com/a00354889e.js"></script>
+        <link rel="stylesheet" href="css/screen.css" />
+        <title>Service Dashboard</title>
+    </head>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark pegasus-background">
+    <a class="navbar-brand" href="#">Pegasus</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../">Dashboard</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">My horse</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+        <div class="container-fluid">
+            <div class="container">
+			<!--Month Calendar-->
+				<div class="row"> 
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+					<div id="my-calendar"></div>
+
+				</div><!--(./col-lg-12 col-md-12 col-sm-12 col-xs-12"BELOW ROW:)-->
+				</div><!--(./row)-->
+			</div><!--(./COntainer")-->
+            <div class="row">
+                <div class="col">
+                    <h2 class="material-h2">APPOINTMENTS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="appointment-card appointment-card-blue">
+                        <div class="appointment-date">
+                            <strong>22 NOV</strong>&nbsp;&nbsp;09:00
+                        </div>
+                        <div class="appointment-name">
+                            Vet's appointment
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="appointment-card appointment-card-green">
+                        <div class="appointment-date">
+                            <strong>25 NOV</strong>&nbsp;&nbsp;11:30
+                        </div>
+                        <div class="appointment-name">
+                            Farrier's visit
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="appointment-card appointment-card-green">
+                        <div class="appointment-date">
+                            <strong>27 DEC</strong>&nbsp;&nbsp;11:45
+                        </div>
+                        <div class="appointment-name">
+                            Farrier's visit
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-primary btn-block">BOOK APPOINTMENT</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="calendar.js"></script>
+</body>
+</html>
