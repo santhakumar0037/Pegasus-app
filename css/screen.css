@@ -26,14 +26,10 @@ h5.title{
     font-size: 120%;
 }
 
-
-
-
 div#main-container{
     line-height: 2rem;
     padding-top: 4rem;
 }
-
 
 div#personal{
     align-content: center;
@@ -127,7 +123,22 @@ div#profile-image img {
     font-size: 1.25rem;
     margin: 1rem 0;
 }
+.material-h2.no-line-under {
+    border-bottom: none;
+}
 
+.rounded-dates{
+    display: inline-block;
+    background-color:#2ABECD;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.7rem;
+
+}
+.date-line{
+    line-height:2rem
+}
 
 
 /* Fixed top navigation */
@@ -139,8 +150,6 @@ body > .container {
 .services .row {
 	padding-top:3rem;
 }
-
-
 
 .tab-navigation {
     width: 100%;
@@ -163,7 +172,7 @@ table.no-row-border th, table.no-row-border td {
 
 }
 table.no-margin-bottom {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 /* Override Bootstrap buttons */
