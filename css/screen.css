@@ -165,3 +165,13 @@ table.no-row-border th, table.no-row-border td {
 table.no-margin-bottom {
     margin-bottom: 0rem;
 }
+
+/* Override Bootstrap buttons */
+.btn-block.btn-primary {
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #2abecd;
+    border: none;
+}
